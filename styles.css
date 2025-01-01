@@ -109,7 +109,7 @@ body, html {
     height: auto;
     margin-right: 15px;
     margin-left: 10px;
-    filter: hue-rotate(-180deg);
+    filter: grayscale(100%) sepia(100%) hue-rotate(-50deg) saturate(1000%);
 }
 
 .card .resolution-text {
@@ -122,4 +122,3 @@ body, html {
     color: red;
     margin-bottom: 10px;
 }
-
